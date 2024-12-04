@@ -2,6 +2,7 @@ print("Welcome to my game!")
 
 playing = input("Do you want to play? (yes/no) ").lower()
 if playing != "yes":
+    print("Wrong answer Booo!!")
     quit()
 
 name = input("Enter your name please ")
@@ -30,6 +31,7 @@ if answer == "nayo":
     score += 1
 else:
     print("Incorrect!")   
+
 
 if score != 1:
     print("You got " + str(score) + " questions correct!")
